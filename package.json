@@ -1,0 +1,29 @@
+{
+  "name": "webchat",
+  "version": "1.0.0",
+  "description": "webchat",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron .",
+    "build": "electron-builder build --mac --win --publish never",
+"deploy": "electron-builder build --mac --win --publish always"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/geroffss/WebChat4.git"
+  },
+  "author": "geroffs",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/geroffss/WebChat4/issues"
+  },
+  "homepage": "https://github.com/geroffss/WebChat4#readme",
+  "dependencies": {
+    "electron-builder": "^24.9.1",
+    "electron-updater": "^6.1.7"
+  },
+  "devDependencies": {
+    "electron": "^28.0.0"
+  }
+}
