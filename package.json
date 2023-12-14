@@ -1,6 +1,6 @@
 {
   "name": "webchat4",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "welovewebchat",
   "main": "src/core/main.js",
   "scripts": {
